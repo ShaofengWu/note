@@ -39,12 +39,5 @@ if not on_rtd:
     # borrowed from https://blog.deimos.fr/2014/10/02/sphinxdoc-and-readthedocs-theme-tricks-2/ & https://cloud.tencent.com/developer/ask/sof/110614
     def setup(app):
         app.add_css_file('theme_overrides.css')
-
 else:
-    html_context = {
-        'css_files': [
-            'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
-            'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
-            '_static/theme_overrides.css',
-        ],
-    }
+    html_theme = 'sphinx_rtd_theme'
