@@ -29,7 +29,7 @@ language = 'zh_CN'
 # code borrowed from https://github.com/mysecureshell/mysecureshell/blob/master/doc/source/conf.py
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 if not on_rtd:
     import sphinx_rtd_theme
