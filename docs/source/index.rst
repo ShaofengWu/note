@@ -12,9 +12,8 @@ documentation for details.
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Contents:
+   :maxdepth: 2
+   :caption: 目录
 
-   utils/sphinx-setup.rst
-
+   utils/index
 
